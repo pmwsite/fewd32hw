@@ -1,0 +1,253 @@
+/* Box Model Hack */
+* {box-sizing: border-box;}
+
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	font-weight: 300; 
+}
+
+header {
+	background: black;
+	padding: 20px;
+}
+
+.header_top {
+	background: black;
+	padding-bottom: 10px;
+}
+
+.header_bottom {
+	background: black;
+	border-bottom: 3px, #FFFF00;
+}
+
+.logo a {
+font-size: 32px;
+font-weight: 300;
+margin-left: 20px;
+color: #FFFF00;
+font-family: 'Merriweather', serif;
+text-decoration: none;
+}
+
+
+.header_bottom ul {
+overflow: auto;
+/*margin: 25px;*/
+padding: 0;
+display: inline;
+background: black;
+}
+
+.header_bottom li a {
+float: left;
+/*width: 18%;*/
+/*text-align: center;*/
+/*border-right: none*/
+/*margin-left: 20px;*/
+color: white;
+/*background: black;*/
+text-decoration: none;
+padding: 5x;
+display: block;
+font-family: 'Oswald', sans-serif;
+width: 20%;
+}
+
+.bigbtn a {
+	font-size: 22px;
+
+}
+
+
+.slogan {
+background: #D3D3D3;
+text-decoration: center;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+font-size: 25px;
+border-top: 2px solid #FFFF00;
+}
+
+.slogan p {
+	font-style: italic;
+}
+
+.meet_your_match {
+	/*background-color: #D3D3D3;*/
+	/*background-image: url(../images/coworking.jpg);*/
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;  
+}
+
+.hero {
+	background-image: url(../images/coworking.jpg);
+	background-size: cover;
+	/*background-image: url(http://i2.cdn.cnn.com/cnnnext/dam/assets/170323093619-ahca-cutout-trump-ryan-large-tease.jpg);*/
+}
+
+
+.calloutBox {
+	width: 300px;
+	background: rgba(255, 255, 255, 0.8);
+	float: right;
+	padding: 10px;
+}
+
+.calloutBox h1 {
+	color: #4169E1; 
+	font-size: 1.5em;
+}
+
+.three_actions {
+	clear: both;
+	/*background: rgba(255, 255, 255, 0.8);*/
+	/*padding: 20px;*/
+}
+
+/*.calloutBox {
+	background-color: #D3D3D3;
+	float: right;
+	width: 250px;
+	margin: 0 20;
+	overflow: visible;
+
+}*/
+
+.yellowbtn {
+	background-color: #FFFF00;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	/*text-decoration: none;*/
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.yellowbtn a {
+	text-decoration: none;
+	color: black;
+}
+
+.three_actions {
+	background-size: cover;
+}
+
+
+.profile {
+	/*background: #d3d3d3;*/
+	background: rgba(255, 255, 255, 0.8);
+	float: left;
+	width: 33%;
+	font-size: 13px;
+	text-align: center;
+	/*padding-top: 10px;
+	padding-right: 4px;
+	padding-bottom: 15px;
+	border-right-width: thin;
+	border-top-style: none;
+    border-right-style: solid;*/
+    /*border-bottom-style: none;*/
+    /*border-left-style: none;*/
+   border-right: 1px solid black;
+}
+
+.profile h1 {
+text-align: left;
+font-size: 14px;
+color: #4169E1;
+margin-left: 10px;
+}
+
+
+.developer {
+background: #DCDCDC;
+	float: left;
+	width: 33%;
+	font-size: 13px;
+	text-align: center;	
+	/*padding-top: 10px;
+	padding-right: 4px;
+	padding-bottom: 15px;
+	border-right-width: thin;
+	border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: none;*/
+    border-right: 1px solid black;
+}
+
+.developer h1 {
+text-align: left;
+font-size: 14px;
+color: #4169E1;
+margin-left: 10px;
+}
+
+.designer {
+	background: #DCDCDC;
+	float: left;
+	width: 34%;
+	font-size: 13px;
+	text-align: center;
+	/*padding-top: 10px;
+	padding-bottom: 15px;*/
+}
+
+.designer h1 {
+	text-align: left;
+font-size: 14px;
+color: #4169E1;
+margin-left: 10px;
+}
+
+.graybtn {
+background-color: #C0C0C0;
+border: none;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+.graybtn a {
+	text-decoration: none;
+	color: black;
+}
+
+.matchmaker_footer {
+	clear: both;
+	background-color: black;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+.matchmaker_footer p {
+	margin-left: 10px;
+	/*margin-top: 20px;*/
+}
+
+
+
+
