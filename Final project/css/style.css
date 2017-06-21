@@ -1,0 +1,89 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body {
+	font-size: 18px;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+header nav .navBtns{
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 24px;
+}
+
+.logo_block {
+	width: 500px;
+	float: left;
+	background-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-bottom-width: 2px;
+    padding: 20px;
+}
+
+.mainSiteContent {
+	clear: both;
+}
+
+.showAlways {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.showClick {
+	display: none;
+	width: 400px;
+}
+
+.datablock {
+	display: inline-block;
+}
+
+.classesAndTutoring {
+	background: url('../images/world-map.jpg') no-repeat;
+	background-size: cover;
+	padding: 20px;
+}
+
+.online {
+	margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+
+.online li {
+	display: inline-block;
+}
+
+.onlineCourses {
+	padding: 20px;
+	background: #eee;	
+}
+
+
+
+
+
+
+
+
+
+
