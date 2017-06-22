@@ -5,29 +5,36 @@
     <title>Pam's Final Project</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+<div class="container">
 <body>
 
 
 <div class="outsideContainer">
 
-    <header>
+    <header class="hero">
         <div class="logo_block">
             <h1>ESL Resourses</h1>
-            <p class="tagline">Your source for learning English in the Washington, DC area</p>
         </div>
 
         <nav>
-            <ul>
+            <ul class="mainNav">
                 <li class="navBtns"><a href="#">Home</a></li>
                 <li class="navBtns"><a href="#">Classes and Tutoring</a></li>
                 <li class="navBtns"><a href="#">Online Courses</a></li>
                 <li class="navBtns"><a href="#">Apps</a></li>
             </ul>
         </nav>  
-
     </header>
+
+    <div class="tagline">
+            Your source for learning English in the Washington, DC area
+        </div>
 
 
     <main class="mainSiteContent">
@@ -38,9 +45,9 @@
                     <h1><a href="#" class="showAlways">Washington English Center</a></h1></header>
                 <div>
                     <ul class="showClick">
-                        <li>address</li>
-                        <li>phone number</li>
-                        <li>url</li> 
+                        <li>2200 California St NW, Washington, DC 20008</li>
+                        <li>(202) 387-2222</li>
+                        <li><a href="http://www.washingtonenglish.org/">www.washingtonenglish.org</a></li> 
                 </div>
             </article> 
             
@@ -50,9 +57,9 @@
                 </header>
                 <div>
                     <ul class="showClick">
-                        <li>address</li>
-                        <li>phone number</li>
-                        <li>url</li> 
+                        <li>2855 Annandale Rd # 114, Falls Church, VA 22042</li>
+                        <li>(703) 237-0866</li>
+                        <li><a href="http://www.lcnv.org/">www.lcnv.org</a></li> 
                 </div>
             </article>
 
@@ -61,9 +68,9 @@
                     <h1><a href="#">Alexandria Library</a></h1></header>
                 <div>
                     <ul class="showClick">
-                        <li>address</li>
-                        <li>phone number</li>
-                        <li>url</li> 
+                        <li>5005 Duke St, Alexandria, VA 22304</li>
+                        <li>(703) 746-1702</li>
+                        <li><a href="https://alexlibraryva.org/client/en_US/home">https://alexlibraryva.org/client/en_US/home</a></li> 
                 </div>
             </article>
 
@@ -73,9 +80,9 @@
                 </header>
                 <div>
                     <ul class="showClick">
-                        <li>address</li>
-                        <li>phone number</li>
-                        <li>url</li> 
+                        <li>901 G St NW, Washington, DC 20001</li>
+                        <li>(202) 727-0321</li>
+                        <li><a href="https://www.dclibrary.org/mlk">www.dclibrary.org/mlk</a></li> 
                 </div>
             </article>
 
@@ -85,9 +92,9 @@
                 </header>
                 <div>
                     <ul class="showClick">
-                        <li>address</li>
-                        <li>phone number</li>
-                        <li>url</li> 
+                        <li>1133 15th St NW #600, Washington, DC 20005</li>
+                        <li>(202) 639-8800</li>
+                        <li><a href="http://www.icls.edu/">www.icls.edu</a></li> 
                 </div>
             </article>
 
@@ -105,21 +112,25 @@
 
         <section class="onlineCourses">
             <h1>Online Courses</h1>
+            <p>Too busy to attend a class? Try one of these online programs.</p>
             <ul class="online">
-                <li><a href="https://www.italki.com/home">italki</a></li>
-                <li><a href="https://wyzant.com">Wyzant</a></li>
-                <li><a href="https://learn.abaenglish.com">ABA English</a></li>     
+                <li><a class="btn" href="https://www.italki.com/home">italki</a></li>
+                <li><a class="btn" href="https://wyzant.com">Wyzant</a></li>
+                <li><a class="btn" href="https://learn.abaenglish.com">ABA English</a></li>     
             </ul> 
         </section>
 
         <section class="apps">
             <h1>Apps</h1>
-            <ul>
-                <li><a href="https://www.duolingo.com/">Duolingo</a></li>
-                <li><a href="https://www.memrise.com/">Memrise</a></li>
-                <li><a href="http://www.fluentu.com/">FluentU</a></li>
-
+            <p>Learn English on your phone or tablet!</p>
+            <ul class="ThreeApps">
+                <li><a class="btn" href="https://www.duolingo.com/">Duolingo</a></li>
+                <li><a class="btn" href="https://www.memrise.com/">Memrise</a></li>
+                <li><a class="btn" href="http://www.fluentu.com/">FluentU</a></li>
             </ul>
+
+
+
         </section>
 
     </main>
@@ -129,7 +140,9 @@
     </footer>
 
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
+</div>
 </html>
